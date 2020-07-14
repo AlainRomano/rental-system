@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rental - System</title>
+  <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+  <h1>Rental System</h1>
+  <p>Hello, world</p>
+  <p>The hour is:  {{ data }}</p>
+
+  <img src="{% static 'images/bg.jpg' %}" alt="bg-img">
+
+  <p id="data"></p>
+
+  <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
